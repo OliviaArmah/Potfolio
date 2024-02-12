@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@300;400;500;700&display=swap');
+
+
+:root{
+    --main-color: rgb(255, 0, 166); #e38528
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    line-height: 1.3;
+}
+html{
+    font-size: 65%;
+    overflow:scroll;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #fcf2e8;
+    padding-left: 30rem;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    background: #222 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding: 5rem 10rem;
+    width: 30rem;
+    text-align: center;
+}
+header .logo{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+header .logo img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 10rem;
+    margin-left: 4rem;
+}
+header .logo h3 span{
+    color: var(--main-color);
+}
+header .navbar{
+    /*margin-bottom: 5rem;*/
+}
+header .navbar a{
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+    margin: 2rem 0;
+
+}
+header .navbar a:hover{
+    letter-spacing: 0.5rem;
+    color: var(--main-color);
+}
+header .follow{
+    display: flex;
+    justify-content: center;
+}
+header .follow a i{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0.7rem;
+}
+header .follow a i:hover{
+    color: var(--main-color);
+    font-size: 2.5rem;
+}
+#menu-bars{
+    position: fixed;
+    top: 1rem; right: 1rem;
+    z-index: 1000;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
+
+}
+
+.img img {
+    height: 100vh;
+}
+.content{
+     display: flex;
+     justify-content: center;
+}
+.hi{
+    font-size: 15px;
+    color: var(--main-color);
+}
+.con1{
+    position: relative;
+    left: 200px;
+    top: 150px;
+    z-index: 4;
+    
+}
+.con1 h3{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.text{
+    font-size: 15px;
+}
+.con1 h3 span {
+    color: var(--main-color);
+}
+.con1 .hi span{
+    font-size: 20px;
+    
+}
+.info {
+    font-size: 40px;
+    font-weight: bold;
+}
+.text {
+    font-size: 10px;
+    font-weight: 200;
+}
+.p1button{
+    padding: 15px 30px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: #222;
+    margin-top: 10px;
+}
+.p1button a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.p1button:hover{
+    background: rgba(0, 0, 0, 0.658);
+    padding: 17px 37px;
+    
+}
+#about{
+    height: 140vh;
+}
+#about h1{
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 20px;
+}
+#about h1 span{
+    color: var(--main-color);
+}
+
+.p2content1{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    top: 20px;
+    padding: 20px;
+}
+.p2img img{
+    height: 50vh;
+    width: 60vh;
+}
+.rtext{
+    margin-left: 20px ;
+
+}
+.rtext h3{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.rtext  p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.p2list{
+    display: flex;
+    justify-content: center;
+}
+.p2list li{
+    list-style: none;
+    font-weight: 300;
+    font-size: 1.5rem;
+   margin-top: 20px;
+}
+.p2list span{
+    color: var(--main-color);
+}
+ .button1{
+    padding: 15px 35px;
+    background-color: var(--main-color);
+    margin-top: 15px;
+}
+.button1 a{
+    color: white;
+    font-weight: bold;
+    
+}
+.button2{
+    padding: 15px 30px;
+    background-color: var(--main-color);
+    margin-top: 15px;
+}
+.button2 a{
+    color: white;
+    font-weight: bold;
+}
+.button1:hover{
+    padding: 15px 37px;
+    background-color: #222;
+}
+.button2:hover{
+    padding: 15px 35px;
+    background-color: #222;
+}
+.list1{
+    margin-right: 15rem;
+}
+.p2content2 h1{
+     margin: 20px;
+}
+.p2content2 h1 span{
+    color: var(--main-color);
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.skills-data{
+   display: flex;
+   flex-flow: column;
+   margin: 20px;
+}
+.skills__bar {
+    height: 0.5rem;
+    background-color: #22222218;
+    width: 100%;
+}
+.skill_data1{
+    display: flex;
+    justify-content: space-between;
+}
+.skills-name{
+    margin-right: 40vh;
+}
+.skills__html{
+    width: 80%;
+    background-color: var(--main-color);
+}
+
+.skills__js{
+    width: 70%;
+    background-color: var(--main-color);
+}
+.skills__react{
+    width: 70%;
+    background-color: var(--main-color);
+}
+.skills__ui {
+    width: 90%;
+    background-color: var(--main-color);
+}
+.skills__php{
+    width: 80%;
+    background-color: var(--main-color);
+}
+.skills-node__js{
+    width: 60%;
+    background-color: var(--main-color);
+}
+.skills__firebase{
+    width: 70%;
+    background-color: var(--main-color);
+}
+
+.skills__python{
+    width: 90%;
+    background-color: var(--main-color);
+}
+.certs{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+.certs h1{
+    margin-top: -20px;
+}
+.bece{
+    height: 10vh;
+    width: 20vh;
+    border-color: black;
+    background-color: var(--main-color);
+    
+}
+.wassce{
+    height: 10vh;
+    width: 20vh;
+    border-color: black;
+    background-color: var(--main-color);
+    
+}
+.uni{
+    height: 10vh;
+    width: 20vh;
+    border-color: black;
+    background-color: var(--main-color);
+    
+}
+.data{
+    height: 10vh;
+    width: 20vh;
+    border-color: black;
+    background-color: var(--main-color);
+    
+}
+.uiux{
+    height: 10vh;
+    width: 20vh;
+    border-color: black;
+    background-color: var(--main-color);
+    
+}
+.certs > div{
+    margin: 10px;
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+}
+.certs > div h2{
+    margin-top: 10px;
+}
+.cert h1 span{
+    margin-top: 10vh;
+    color: var(--main-color);
+}
+#service{
+    height: 120vh;
+    margin-top: 20vh;
+}
+.gridboxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50rem;
+    width: 80rem;
+    text-align: center;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px;
+}
+#service h1 span {
+    margin-bottom: -30vh;
+    color: var(--main-color);
+}
+#service h1{
+    font-size: 3.5rem;
+    font-weight: 700;padding: 10px;
+}
+.box{
+    background-color: white;
+    padding: 60px;
+}
+
+.servicep2{
+    display: flex;
+    justify-content: center;
+}
+.box i{
+    font-size: 2rem;
+    background-color: var(--main-color);
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50px;
+    color: white;
+    padding: 17px;
+}
+.box h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.box p{
+    font-size: 15px;
+}
+#experience{
+    height: 100vh;
+}
+#experience h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 20px;
+}
+#experience h1 span{
+    color: var(--main-color);
+}
+.boxgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+    width: 90vh;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 30vh;
+    
+}
+.boxgriditem{
+    background-color: #fff;
+    justify-content: center;
+    text-align: left;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+.boxgriditem h4{
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    width: 60px;
+    height: 15px;
+    margin-top: 50px;
+}
+.boxgriditem h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.boxgriditem p{
+    margin-top: 10px;
+}
+
+#portfolio{
+    height: 100vh;
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 20px;
+}
+#portfolio h2 span{
+    color: var(--main-color);
+}
+.box-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20vh;
+}
+.Portfolio-box img{
+    height: 40vh;
+    width: 30vh;
+    object-fit: cover;
+    border: 0.5rem solid #ffffff;
+}
+.box-content .Portfolio-box h3 {
+    bottom: 5rem; left: 1rem;
+    font-size: 2.5rem;
+    color: #333;
+    text-transform: uppercase;
+}
+.Portfolio-box  :hover{
+    position: absolute;
+    height: 45vh;
+    width: 35vh;
+}
+#contact{
+    height: 100vh;
+}
+.contacts-content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+#contact h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 30px;
+}
+#contact h2 span{
+    color: var(--main-color);
+}
+.contacts{
+    text-align: center;
+    margin-left: 20vh;
+}
+
+.contact-box{
+    background-color: #fff;
+    margin: 20px;
+    height: 20vh;
+    width: 30vh;
+}
+.contact-box-text i{
+    color: white;
+    background-color: var(--main-color);
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+.contact-box-text h3{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.form form .box{
+   display: block;
+   margin: 10px;
+}
+ .box .textarea{
+    height: 3rem;
+    width: 10rem;
+}
+#contact button{
+    padding: 15px 30px;
+    background-color: var(--main-color);
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 20vh;
+}
+#contact button a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 800;
+}
+#contact button:hover{
+    padding: 20px 35px;
+    background-color: #2222225e;
+}
+.beneath{
+    background-color: #fff;
+    color: #0b0b0b;
+    text-align: center;
+    height: 3vh;
+}
+.beneath span {
+    color: var(--main-color);
+}
+.beneath h4{
+    padding-top: 10px;
+}
+
+ /*.form{
+    gap: 1rem;
+
+}
+
+.contact .form form{
+    background: #fff;
+    padding: 0 1rem;
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.content{
+    font-family: 'roboto',sans-serif;
+    margin-top: 15rem;
+}
+.content .info p{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.content h3{
+    font-weight: bolder;
+    font-size: 4rem;
+}
+.content h3 span{
+    color: var(--main-color);
+}
+
+.content a{
+    color: white;
+    height: 10px;
+    width: 20px;
+    border-color: black;
+    background-color: var(--main-color);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media (max-width: 760px){
+   
+    html{
+        font-size: 55%;
+    } 
+    body{
+        padding: 0;
+        
+    }
+    #menu-bars{
+        display: initial;
+    }
+    header{
+        left: -120%;
+    }
+
+}*/

@@ -1,0 +1,194 @@
+@media (max-width:991px){
+
+    html{
+        font-size: 50%;
+        margin-top: 20vh;
+    }
+    body{
+        padding: 0;
+    }
+    #menu-bars{
+        display: initial;
+    }
+    header{
+        left: -120%;
+    }
+    .con1{
+        position: relative;
+        left: 200px;
+        z-index: 4;
+        
+    }#about{
+        height: initial;
+    }
+    .p2content1{
+        display: initial;
+        font-family: sans-serif;
+        top: 20px;
+        padding: 20px;
+    }
+    .p2list .list1 .btn{
+        display: flex;
+        justify-content: center; 
+        margin-left: 5vh;
+    }
+    
+    .p2list .list1 button{
+        margin: 10px;
+          
+    }
+    .skills{
+        display: initial;
+        margin: 10px;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .skills__bar {
+        height: 0.5rem;
+        background-color: #22222218;
+        width: 100%;
+    }
+    .skill_data1{
+        display: initial;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .skills-name{
+        margin-right: 40vh;
+    }
+    .skills__html{
+        width: 80%;
+        background-color: var(--main-color);
+    }
+    
+    .skills__js{
+        width: 70%;
+        background-color: var(--main-color);
+    }
+    .skills__react{
+        width: 70%;
+        background-color: var(--main-color);
+    }
+    .skills__ui {
+        width: 90%;
+        background-color: var(--main-color);
+    }
+    .skills__php{
+        width: 80%;
+        background-color: var(--main-color);
+    }
+    .skills-node__js{
+        width: 60%;
+        background-color: var(--main-color);
+    }
+    .skills__firebase{
+        width: 70%;
+        background-color: var(--main-color);
+    }
+    
+    .skills__python{
+        width: 90%;
+        background-color: var(--main-color);
+    }
+    .certs{
+        display: initial;
+        margin-top: 20px;
+        margin-left: 10vh;
+
+    }
+    
+    .bece{
+        height: 10vh;
+        width: 20vh;
+        border-color: black;
+        background-color: var(--main-color);
+        padding-top: 10px;
+        
+    }
+    .wassce{
+        height: 10vh;
+        width: 20vh;
+        border-color: black;
+        background-color: var(--main-color);
+        padding-top: 10px;
+        
+    }
+    .uni{
+        height: 10vh;
+        width: 20vh;
+        border-color: black;
+        background-color: var(--main-color);
+        padding-top: 10px;
+    }
+    .data{
+        height: 10vh;
+        width: 20vh;
+        border-color: black;
+        background-color: var(--main-color);
+        padding-top: 10px;
+    }
+    .uiux{
+        height: 10vh;
+        width: 20vh;
+        border-color: black;
+        background-color: var(--main-color);
+        padding-top: 10px;
+        
+    }
+    .gridboxes{
+        display: initial;
+        height: 40rem;
+        width: 80rem;
+        text-align: center;
+        justify-content: center;
+        gap: 20px; 
+        padding: 20px;
+    }
+  
+    #service{
+        height: 230rem;
+    }
+    #experience{
+        height: 130vh;
+    }
+    #portfolio{
+        height: 230rem;
+
+    }
+    #contact{
+        height: 150rem;
+    }
+    .boxgrid{
+        display: initial;
+        height: 90vh;
+        width: 80vh;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 10vh;
+        margin: 10px;
+        
+    }
+    .boxgriditem{
+        background-color: #fff;
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+        
+    }
+    .box-content{
+       display: initial;
+        margin-left: 20vh;
+        text-align: center;
+        padding-left: 10vh;
+    }
+
+    .contacts-content{
+        display: initial;
+    
+    }
+    .contacts{
+        text-align: center;
+        margin-left: 7vh;
+    }
+}
